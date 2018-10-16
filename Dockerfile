@@ -1,4 +1,4 @@
-FROM node:8.12-alpine
+FROM node:8.11
 
 # Installs latest Chromium (68) package.
 RUN apk update && apk upgrade && \
